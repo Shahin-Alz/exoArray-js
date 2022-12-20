@@ -30,21 +30,31 @@
 
 // exo4
 
-let coding = ["coding23", "coding24", "coding25"]
+// let coding = ["coding23", "coding24", "coding25"]
 
-console.log(coding);
+// console.log(coding);
 
-console.log(coding.push("shahin"));
+// console.log(coding.push("shahin"));
 
-console.log(coding);
+// console.log(coding);
 
-coding.splice(3, 1, 'alemzadeh')
+// coding.splice(3, 1, 'alemzadeh')
 
-console.log(coding);
+// console.log(coding);
 
-coding.shift();
+// coding.shift();
 
-console.log(coding);
+// console.log(coding);
+
+// bonus
+
+let tableau1 = [1, 2, 3]
+
+let tableau2 = [4, 5, 6]
+
+let tableauAll = tableau1.concat(tableau2)
+
+console.log(tableauAll);
 
 
 
